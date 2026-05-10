@@ -1,17 +1,52 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 # BlancX
+
+BlancX is a futuristic AI-powered chat application built using React and Gemini API. It features a modern glassmorphism UI, dynamic cursor spotlight effects, and an immersive conversational experience inspired by next-generation AI dashboards.
+
+---
+
+## Features
+
+- AI-powered conversations using Gemini API
+- Futuristic glassmorphism UI
+- Dynamic cursor spotlight effect
+- Responsive dashboard layout
+- Real-time AI response rendering
+- Chat history support
+- Smooth animations and hover effects
+- Dark neon-themed interface
+
+---
+
+## Tech Stack
+
+- React
+- Tailwind CSS
+- JavaScript
+- Gemini API
+- Vite
+- Lucide React Icons
+
+---
+
+## Folder Structure
+
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── styles/
+ ├── App.jsx
+ └── main.jsx
+
+---
+
+## Installation
+
+```bash
+git clone <repo-link>
+
+cd blancx
+
+npm install
+
+npm run dev
